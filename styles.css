@@ -41,7 +41,7 @@ h1 {
 
 .device-header {
   display: flex;
-  justify-content: space-between; /* <-- text left, image right */
+  justify-content: space-between; 
   align-items: center;
   gap: 15px;
   margin-bottom: 20px;
@@ -154,7 +154,7 @@ a:hover {
   }
 
   .device-header {
-    flex-direction: column; /* Stack text and image on small screens */
+    flex-direction: column;
     align-items: flex-start;
   }
 
@@ -175,7 +175,6 @@ a:hover {
   p {
     max-width: none;
   }
-  /* Link button styling */
 .link-btn {
   display: inline-block;
   padding: 6px 12px;
