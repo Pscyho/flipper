@@ -9,7 +9,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthvnext.bing.com%2Fth%2Fid%2FOIP.Eat9fq9MaVUMMhjex96CYAHaEK%3Fr%3D0%26cb%3Ducfimg2%26pid%3DApi%26ucfimg%3D1&f=1&ipt=eb59936370086fbbdc330918c95cad925bec8f988ce6596528cbdbe51e1dbbb5&ipo=images');
+    background-image: url('https://flipperzero.one/images/flipper-zero-hero.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -22,42 +22,42 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 1rem;
     background: rgba(0, 0, 0, 0.7); /* Simple dark overlay for readability */
 }
 
 /* Header Styles */
 header {
     text-align: center;
-    margin-bottom: 3rem;
-    padding: 2rem 0;
+    margin-bottom: 2rem;
+    padding: 1rem 0;
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 0.5rem;
 }
 
 header p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     opacity: 0.9;
 }
 
 /* Tool Section Styles - NO BORDERS, NO BLUR */
 .tool-section {
-    margin: 3rem 0;
+    margin: 2rem 0;
     padding: 0;
 }
 
 .tool-section h2 {
     color: #00ffcc;
-    margin-bottom: 1rem;
-    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
 }
 
 .tool-section p {
-    margin-bottom: 1rem;
-    line-height: 1.6;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
 }
 
 .tool-section strong {
@@ -70,15 +70,13 @@ header p {
     color: #00ffcc;
     text-decoration: none;
     font-weight: bold;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     padding: 0.5rem 0;
-    border-bottom: 2px solid #00ffcc;
     transition: all 0.3s ease;
 }
 
 .tool-link:hover {
     color: #ffffff;
-    border-bottom-color: #ffffff;
 }
 
 /* Responsive Design */
@@ -88,10 +86,10 @@ header p {
     }
     
     header h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     
     .tool-section {
-        margin: 2rem 0;
+        margin: 1.5rem 0;
     }
 }
