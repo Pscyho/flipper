@@ -1,178 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Hardware Security Tools</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <div class="overlay">
-            <div class="container">
-                <h1>Hardware Hacking Tools</h1>
 
-                <div class="device-section">
-                    <div class="device-header">
-                        <h2>Flipper Zero</h2>
-                        <img src="./flipper-zero.jpg" alt="Flipper Zero Device"
-                            class="device-image">
-                    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardware Security Tools</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-                    <p>Flipper Zero is a portable multi-tool for pentesters and
-                        geeks in a toy-like body. It loves hacking digital
-                        stuff, such as radio protocols, access control systems,
-                        hardware, and more. It's fully open-source and
-                        customizable, so you can extend it in whatever way you
-                        like.
-                    </p>
+<body>
+    <canvas id="canv"></canvas>
+    <div class="overlay">
+        <div class="container">
+            <h1>Hardware Hacking Tools</h1>
 
-                    <div class="info-grid">
-                        <div class="info-box">
-                            <h4>What it can do:</h4>
-                            <ul class="features-list">
-                                <li>Read and clone RFID cards</li>
-                                <li>Control infrared devices</li>
-                                <li>Analyze radio signals</li>
-                                <li>Act as a USB device</li>
-                                <li>GPIO hardware interface</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <p>
-                        <a href="https://flipperzero.one/" target="_blank"
-                            class="link-btn">
-                            🌐 flipperzero
-                        </a>
-                    </p>
-
-                    <p>
-                        <a
-                            href="https://youtube.com/shorts/8ouRGxpmYOQ?feature=shared"
-                            target="_blank" class="link-btn">
-                            📺 Flipper Zero Overview
-                        </a>
-                    </p>
+            <div class="device-section">
+                <div class="device-header">
+                    <h2>Flipper Zero</h2>
+                    <img src="./flipper-zero.jpg" alt="Flipper Zero Device" class="device-image">
                 </div>
 
-                <div class="device-section">
-                    <div class="device-header">
-                        <h2>Wi-Fi Deauther</h2>
-                        <img src="./wifi-deauther.jpg"
-                            alt="Wi-Fi Deauther Device"
-                            class="device-image">
+                <p>Flipper Zero is a portable multi-tool for pentesters and
+                    geeks in a toy-like body. It loves hacking digital
+                    stuff, such as radio protocols, access control systems,
+                    hardware, and more. It's fully open-source and
+                    customizable, so you can extend it in whatever way you
+                    like.
+                </p>
+
+                <div class="info-grid">
+                    <div class="info-box">
+                        <h4>What it can do:</h4>
+                        <ul class="features-list">
+                            <li>Read and clone RFID cards</li>
+                            <li>Control infrared devices</li>
+                            <li>Analyze radio signals</li>
+                            <li>Act as a USB device</li>
+                            <li>GPIO hardware interface</li>
+                        </ul>
                     </div>
-
-                    <p>
-                        A Wi-Fi Deauther is a device that can perform
-                        various attacks on Wi-Fi networks to test their
-                        security.
-                        It's built using affordable ESP8266/ESP32
-                        microcontrollers.
-                    </p>
-
-                    <div class="info-grid">
-                        <div class="info-box">
-                            <h4>Capabilities:</h4>
-                            <ul class="features-list">
-                                <li>Scan for Wi-Fi networks</li>
-                                <li>Deauthentication attacks</li>
-                                <li>Create fake Wi-Fi networks</li>
-                                <li>Monitor network traffic</li>
-                                <li>MAC address spoofing</li>
-                            </ul>
-                        </div>
-                        <div class="info-box">
-                            <h4>Hardware Details:</h4>
-                            <ul class="features-list">
-                                <li>ESP8266/ESP32 chip</li>
-                                <li>2.4GHz Wi-Fi only</li>
-                                <li>Web-based interface</li>
-                                <li>Battery or USB powered</li>
-                                <li>Open source software</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <p>
-                        <a
-                            href="https://github.com/SpacehuhnTech/esp8266_deauther">
-                            🐙 ESP8266 Deauther Project
-                        </a>
-                    </p>
-                </div>
-                <div class="device-section">
-                    <div class="device-header">
-                        <h2>Rubber Ducky </h2>
-                       <video width="520" height="360" controls autoplay loop muted>
-  <source src="video.mp4" type="video/mp4">
-  <source src="video.ogg" type="video/ogYour browser does not support the video tag.g">
-  
-</video>
-
-                    </div>
-
-                    <p>
-                        The USB Rubber Ducky remains a powerful tool for both
-                        ethical hacking and system administration, but it also
-                        poses significant risks if used irresponsibly. Its
-                        ability to exploit human trust in USB devices makes it a
-                        staple in the toolkit of cybersecurity professionals
-                    </p>
-
-                    <div class="info-grid">
-                        <div class="info-box">
-                            <h4>Key Features :</h4>
-                            <ul class="features-list">
-                                <li>Keystroke Injection</li>
-                                <li>DuckyScript</li>
-                                <li>Payload Customization</li>
-                                <li>Cross-Platform Compatibility</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <p>
-                        <a
-                            href="https://shop.hak5.org/products/usb-rubber-ducky">
-                            Buy now </a>
-                    </p>
-                    <p>
-                        <a
-                            href="https://www.youtube.com/watch?v=sbKN8FhGnqg">
-                            USB Rubber Ducky Overview
-                        </a>
-                    </p>
                 </div>
 
-                <div class="device-section">
-                    <h3>Why These Tools Matter</h3>
-                    <p>
-                        Both devices serve important purposes in
-                        cybersecurity education and professional
-                        penetration testing.
-                        They help security professionals identify
-                        vulnerabilities in systems and teach people
-                        about digital security.
-                    </p>
-                    <p>
-                        The Flipper Zero focuses on physical security
-                        systems and radio protocols,
-                        while the Wi-Fi Deauther specializes in wireless
-                        network security testing.
-                    </p>
+                <p>
+                    <a href="https://flipperzero.one/" target="_blank" class="link-btn">
+                        🌐 flipperzero
+                    </a>
+                </p>
+
+                <p>
+                    <a href="https://youtube.com/shorts/8ouRGxpmYOQ?feature=shared" target="_blank" class="link-btn">
+                        📺 Flipper Zero Overview
+                    </a>
+                </p>
+            </div>
+
+            <div class="device-section">
+                <div class="device-header">
+                    <h2>Wi-Fi Deauther</h2>
+                    <img src="./wifi-deauther.jpg" alt="Wi-Fi Deauther Device" class="device-image">
                 </div>
 
-                <div class="warning-box">
-                    <h3>⚠️ CAUTION</h3>
-                    <p>
-                        These tools are for educational and authorized
-                        testing purposes only.
-                        Always get permission before testing any systems
-                        you don't own.
-                        Unauthorized use may be illegal and can result
-                        in serious consequences.
-                    </p>
+                <p>
+                    A Wi-Fi Deauther is a device that can perform
+                    various attacks on Wi-Fi networks to test their
+                    security.
+                    It's built using affordable ESP8266/ESP32
+                    microcontrollers.
+                </p>
+
+                <div class="info-grid">
+                    <div class="info-box">
+                        <h4>Capabilities:</h4>
+                        <ul class="features-list">
+                            <li>Scan for Wi-Fi networks</li>
+                            <li>Deauthentication attacks</li>
+                            <li>Create fake Wi-Fi networks</li>
+                            <li>Monitor network traffic</li>
+                            <li>MAC address spoofing</li>
+                        </ul>
+                    </div>
+                    <div class="info-box">
+                        <h4>Hardware Details:</h4>
+                        <ul class="features-list">
+                            <li>ESP8266/ESP32 chip</li>
+                            <li>2.4GHz Wi-Fi only</li>
+                            <li>Web-based interface</li>
+                            <li>Battery or USB powered</li>
+                            <li>Open source software</li>
+                        </ul>
+                    </div>
                 </div>
+                <p>
+                    <a href="https://github.com/SpacehuhnTech/esp8266_deauther">
+                        🐙 ESP8266 Deauther Project
+                    </a>
+                </p>
+            </div>
+            <div class="device-section">
+                <div class="device-header">
+                    <h2>Rubber Ducky </h2>
+                    <image src="video.gif" alt="USB Rubber Ducky Demo" class="device-image">
+                    </image>
+
+
+                </div>
+
+                <p>
+                    The USB Rubber Ducky remains a powerful tool for both
+                    ethical hacking and system administration, but it also
+                    poses significant risks if used irresponsibly. Its
+                    ability to exploit human trust in USB devices makes it a
+                    staple in the toolkit of cybersecurity professionals
+                </p>
+
+                <div class="info-grid">
+                    <div class="info-box">
+                        <h4>Key Features :</h4>
+                        <ul class="features-list">
+                            <li>Keystroke Injection</li>
+                            <li>DuckyScript</li>
+                            <li>Payload Customization</li>
+                            <li>Cross-Platform Compatibility</li>
+                        </ul>
+                    </div>
+                </div>
+                <p>
+                    <a href="https://shop.hak5.org/products/usb-rubber-ducky">
+                        Buy now </a>
+                </p>
+                <p>
+                    <a href="https://www.youtube.com/watch?v=sbKN8FhGnqg">
+                        USB Rubber Ducky Overview
+                    </a>
+                </p>
+            </div>
+
+            <div class="device-section">
+                <h3>Why These Tools Matter</h3>
+                <p>
+                    Both devices serve important purposes in
+                    cybersecurity education and professional
+                    penetration testing.
+                    They help security professionals identify
+                    vulnerabilities in systems and teach people
+                    about digital security.
+                </p>
+                <p>
+                    The Flipper Zero focuses on physical security
+                    systems and radio protocols,
+                    while the Wi-Fi Deauther specializes in wireless
+                    network security testing.
+                </p>
+            </div>
+
+            <div class="warning-box">
+                <h3>⚠️ CAUTION</h3>
+                <p>
+                    These tools are for educational and authorized
+                    testing purposes only.
+                    Always get permission before testing any systems
+                    you don't own.
+                    Unauthorized use may be illegal and can result
+                    in serious consequences.
+                </p>
             </div>
         </div>
-    </body>
+    </div>
+</body>
+<script>
+    const canvas = document.getElementById('canv');
+    const ctx = canvas.getContext('2d');
+
+    function resizeCanvas() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+    }
+    resizeCanvas();
+    window.addEventListener('resize', resizeCanvas);
+
+    let w = canvas.width;
+    let h = canvas.height;
+    let cols = Math.floor(w / 20) + 1;
+    let ypos = Array(cols).fill(0);
+
+    function resetMatrixVars() {
+        w = canvas.width;
+        h = canvas.height;
+        cols = Math.floor(w / 20) + 1;
+        ypos = Array(cols).fill(0);
+    }
+    window.addEventListener('resize', resetMatrixVars);
+
+    ctx.fillStyle = '#000';
+    ctx.fillRect(0, 0, w, h);
+
+    function matrix() {
+        ctx.fillStyle = '#0001';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        ctx.fillStyle = '#0f0';
+        ctx.font = '15pt monospace';
+
+        ypos.forEach((y, ind) => {
+            const text = String.fromCharCode(Math.random() * 128);
+            const x = ind * 20;
+            ctx.fillText(text, x, y);
+            if (y > 100 + Math.random() * 10000) ypos[ind] = 0;
+            else ypos[ind] = y + 20;
+        });
+    }
+
+    setInterval(matrix, 50);
+</script>
+
 </html>
